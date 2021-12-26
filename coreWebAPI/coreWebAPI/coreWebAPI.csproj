@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>MOM.Core.WebAPI</RootNamespace>
+    <AssemblyName>MOM.Core.WebAPI</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Hord\" />
+    <Folder Include="Resources\NovoFolder\" />
+    <Folder Include="Resources\Teste\Images\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="System.DirectoryServices" Version="4.5.0" />
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.NETCore.App" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

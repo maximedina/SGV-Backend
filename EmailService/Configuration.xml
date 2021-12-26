@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <host>smtp.gmail.com</host>
+  <port>587</port>
+  <user>testsgv01@gmail.com</user>
+  <password>Maximiliano01</password>
+  <enableSsl>true</enableSsl>
+</configuration>
